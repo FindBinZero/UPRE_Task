@@ -1,2 +1,3 @@
-/cmake-build-debug/
-/.idea
+/cpp/cmake-build-debug/
+/cpp/.idea
+/rust/target
