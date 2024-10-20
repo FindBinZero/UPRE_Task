@@ -1,5 +1,6 @@
 use std::io;
 mod task_one;
+mod task_three;
 mod task_two;
 
 #[derive(Debug)]
@@ -27,6 +28,6 @@ fn main() {
     match task_num {
         TaskNum::TaskOne => task_one::final_call(),
         TaskNum::TaskTwo => task_two::final_call(),
-        _ => {}
+        TaskNum::TaskThree => task_three::final_call(),
     }
 }
